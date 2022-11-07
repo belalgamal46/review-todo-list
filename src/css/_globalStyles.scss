@@ -1,0 +1,13 @@
+$primary-background: #f6f6f6;
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+.line-through {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
