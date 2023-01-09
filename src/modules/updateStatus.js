@@ -1,4 +1,4 @@
-import { Store } from './index.js';
+import Store from './store.js';
 
 class UpdateStatus {
   static updateTaskToCompleted = (item) => {
