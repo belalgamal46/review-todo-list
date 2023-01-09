@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "stylelint": "npx stylelint '**/*.{css,scss}' --fix",
     "webhint": "npx hint .",
-    "eslint": "npx eslint .",
+    "eslint": "npx eslint --fix .",
     "build": "webpack",
     "start": "webpack serve --open"
   },

@@ -1,4 +1,5 @@
-import { Store, AddItemsToList } from './index.js';
+import Store from './store.js';
+import AddItemsToList from './addItemsToList.js';
 
 class RemoveItemFromList {
   static removeItemFromList = (itemList) => {
